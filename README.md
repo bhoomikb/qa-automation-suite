@@ -51,18 +51,15 @@ qa-automation-suite/
 ## ⚙️ Setup & Run
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR-USERNAME/qa-automation-suite.git
-cd qa-automation-suite
-
-# 2. Install dependencies
+# 1. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run all tests
+# 2. Run all tests
 pytest tests/ -v
 
-# 4. Run with HTML report
+# 3. Run with HTML report
 pytest tests/ -v --html=reports/report.html
+
 ```
 
 ---
